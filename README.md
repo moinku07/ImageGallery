@@ -8,6 +8,7 @@ Minimum Sencha touch version: 2.1
 It can be added to any panel or container like in the example below
 
 <code>
+<pre>
 {
     xtype: 'panel',
     name: 'gallerypanel',
@@ -36,6 +37,7 @@ It can be added to any panel or container like in the example below
         'files/slideshow/style12.jpg'
     ]// images path
 }
+</pre>
 </code>
 
 Existing apps that uses this gallery plugin
