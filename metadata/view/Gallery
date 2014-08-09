@@ -1,0 +1,98 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userAlias": "gallery",
+        "designer|userClassName": "Gallery",
+        "layout": "fit"
+    },
+    "designerId": "2e170f26-68f7-46c4-81c0-5aeb264a4608",
+    "cn": [
+        {
+            "type": "Ext.Toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|pack": "end",
+                "docked": "top",
+                "title": "Gallery"
+            },
+            "designerId": "d5ea0a5c-9dc6-4837-92c2-cbca37755ce9",
+            "cn": [
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "hidden": true,
+                        "id": "galleryoverlayclose",
+                        "name": "galleryoverlayclose",
+                        "text": "Close"
+                    },
+                    "designerId": "737b86c6-ad22-4f90-9ef0-e692e5cfbd9b",
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "name",
+                            "type": "string"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "data": [
+                    "['files/slideshow/style1.jpg','files/slideshow/style2.jpg','files/slideshow/style3.jpg','files/slideshow/style4.jpg','files/slideshow/style5.jpg','files/slideshow/style6.jpg','files/slideshow/style7.jpg','files/slideshow/style8.jpg','files/slideshow/style9.jpg','files/slideshow/style10.jpg','files/slideshow/style11.jpg','files/slideshow/style12.jpg']"
+                ],
+                "layout": null,
+                "name": "gallerypanel",
+                "plugins": [
+                    "{",
+                    "                    xclass: 'Ext.plugin.ImageGallery',",
+                    "                    galleryType: 'listcarousel',//carousel or listcarousel. defaults to carousel",
+                    "                    autoInitialize: false, // defaults to true. make it false if you want to initialize it later",
+                    "                    pinchZoom: true, //defaults to true",
+                    "                    listFullWidth: true, //defaults to false",
+                    "                    listBorder: '4px solid #fff', //border around the thumb when galleryType is listcarousel",
+                    "                    defaultClose: false, // defaults to true. if you want to use different button, set false",
+                    "                    closeButtonId: 'galleryoverlayclose' //ID of the buttion which you want to use to close the modal carousel when defaultClose is false",
+                    "                }"
+                ]
+            },
+            "configAlternates": {
+                "plugins": "object"
+            },
+            "designerId": "add6da89-acb7-43dd-99d9-0a69510a0195",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "group": "(Custom Properties)",
+                    "name": "plugins",
+                    "type": "string"
+                }
+            ]
+        }
+    ]
+}

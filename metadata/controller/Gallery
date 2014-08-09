@@ -1,0 +1,64 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "gallery",
+        "designer|userClassName": "Gallery"
+    },
+    "designerId": "6526760b-56bc-497a-8a73-db725c5b44d7",
+    "cn": [
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "gallerypanel",
+                "selector": "panel[name=gallerypanel]"
+            },
+            "designerId": "e9c1f3f2-63dc-4d90-8d89-c8482f8e60f0"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "gallerypanel",
+                "designer|targetType": "Ext.Panel",
+                "fn": "onPanelActivate",
+                "implHandler": [
+                    "if (!Ext.app.galleryInitialize) {",
+                    "            this.galleryinitialize();",
+                    "            Ext.app.galleryInitialize = true;",
+                    "        }"
+                ],
+                "name": "activate"
+            },
+            "designerId": "678919d3-9f55-4b3c-88ab-bbe91b0188ee"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "galleryinitialize",
+                "implHandler": [
+                    "this.getGallerypanel().getPlugins()[0].initialize();"
+                ]
+            },
+            "designerId": "109161ed-7e33-4d44-b490-3d7e269d8918"
+        }
+    ]
+}

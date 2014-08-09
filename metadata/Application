@@ -1,0 +1,24 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "controllers": [
+            "Gallery"
+        ],
+        "name": "ImageGallery",
+        "requires": [
+            "Ext.plugin.ImageGallery",
+            "Ext.Img",
+            "Ext.dataview.DataView",
+            "Ext.data.Store"
+        ],
+        "views": [
+            "Gallery"
+        ]
+    },
+    "designerId": "application"
+}

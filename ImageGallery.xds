@@ -1,0 +1,49 @@
+{
+    "name": "ImageGallery",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "4.0.4.84",
+            "frameworkVersion": "2.3.1.410"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "iPhone",
+                "builtIn": true,
+                "height": 480,
+                "width": 320
+            },
+            "viewportOrientation": "portrait"
+        },
+        "urlPrefix": "",
+        "exportPath": "/Applications/XAMPP/xamppfiles/htdocs/ImageGalleryPublish",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true
+    },
+    "xdsVersion": "3.0.4",
+    "xdsBuild": 1386,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000004,
+    "framework": "touch23",
+    "viewOrderMap": {
+        "view": [
+            "2e170f26-68f7-46c4-81c0-5aeb264a4608"
+        ],
+        "store": [],
+        "controller": [
+            "6526760b-56bc-497a-8a73-db725c5b44d7"
+        ],
+        "model": [],
+        "resource": [
+            "3b7a9d62-2521-42ea-9853-904b8cbf35ca"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}
