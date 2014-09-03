@@ -7,6 +7,8 @@ Minimum Sencha touch version: 2.1
 
 It can be added to any panel or container like in the example below
 
+You need to put the ImageGallery.js in  touch/src/plugin/ directory. You can find it there in this project.
+
 
 <pre><code>
 {
@@ -44,3 +46,7 @@ Existing apps that uses this gallery plugin
 https://itunes.apple.com/au/app/waxed/id702899178?mt=8 (ST 2.1)
 https://itunes.apple.com/au/app/simply-elegant-beauty-salon/id689962180?mt=8 (ST 2.1)
 https://itunes.apple.com/au/app/the-cutting-edge-hair-studio/id616576284?mt=8 (ST 2.0)
+
+Thanks a lot.
+Happy Coding!
+Moin
